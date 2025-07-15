@@ -21,6 +21,7 @@ public class Cajero extends JFrame {
         guardarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null, "Guardado exitosamente", "Error", JOptionPane.ERROR_MESSAGE);
 
             }
         });
